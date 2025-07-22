@@ -44,6 +44,9 @@ authors="Clinton" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''一个增加城市方块的模组'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+
+entrypoint="com.clintongao.morecityblock.MoreCityBlock"
+
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
