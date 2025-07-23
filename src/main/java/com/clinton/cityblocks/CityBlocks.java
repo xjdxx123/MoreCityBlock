@@ -29,26 +29,22 @@ public class CityBlocks {
     private static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
+    // 注册创造物品栏
     private static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-
-    public static final RegistryObject<Block> city_end_stone = BLOCKS.register("city_end_stone", () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).sound(SoundType.CROP)));
-    public static final RegistryObject<Item> city_end_stone_item= ITEMS.register("city_end_stone", () -> new BlockItem(city_end_stone.get(), new Item.Properties()));
-
-
     public static final RegistryObject<CreativeModeTab> city_blocks_tab = CREATIVE_MODE_TABS.register("city_blocks_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("城市建筑"))
-            .icon(() -> new ItemStack(city_end_stone_item.get()))
-            .displayItems((parm, output) -> {
-                output.accept(city_end_stone.get());
-                output.accept(city_end_stone_item.get());
+            .title(Component.translatable("itemGroup.city_blocks_tab")) // 改为标准 key
+            .icon(() -> new ItemStack(ModBlocks.BLOCK_MAP.get("city_end_stone").get().asItem()))
+            .displayItems((params, output) -> {
+                for (RegistryObject<Block> block : ModBlocks.BLOCK_MAP.values()) {
+                    output.accept(block.get().asItem());
+                }
             })
             .build());
 
     public CityBlocks() {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
-        BLOCKS.register(bus);
-        ITEMS.register(bus);
-//        bus.register(CityBlocks.class);
+        ModBlocks.BLOCKS.register(bus);
+        ModBlocks.ITEMS.register(bus);
         CREATIVE_MODE_TABS.register(bus);
     }
 }
