@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "cityblocks:block/city_bee_nest_top",
+    "bottom": "cityblocks:block/city_bee_nest_bottom",
+    "front": "cityblocks:block/city_bee_nest_front",
+    "side": "cityblocks:block/city_bee_nest_side"
+  }
+}

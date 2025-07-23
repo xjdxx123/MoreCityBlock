@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cityblocks:block/city_torch_wall_color" }
+  }
+}

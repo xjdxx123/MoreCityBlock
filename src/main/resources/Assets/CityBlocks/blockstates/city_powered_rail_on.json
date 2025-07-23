@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cityblocks:block/city_powered_rail_on" }
+  }
+}
