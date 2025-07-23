@@ -34,7 +34,7 @@ public class CityBlocks {
     public static final RegistryObject<Block> city_end_stone = BLOCKS.register("city_end_stone", () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).sound(SoundType.CROP)));
     public static final RegistryObject<Item> city_end_stone_item= ITEMS.register("city_end_stone", () -> new BlockItem(city_end_stone.get(), new Item.Properties()));
 
-    /
+
     public static final RegistryObject<CreativeModeTab> city_blocks_tab = CREATIVE_MODE_TABS.register("city_blocks_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("城市建筑"))
             .icon(() -> new ItemStack(city_end_stone_item.get()))
