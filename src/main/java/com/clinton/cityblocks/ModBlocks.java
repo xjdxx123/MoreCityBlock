@@ -1,6 +1,7 @@
 package com.clinton.cityblocks;
 
 import com.clinton.cityblocks.blockLogic.HorizontalFacingBlock;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -26,7 +27,14 @@ public class ModBlocks {
                 "city_bee_nest",
                 () -> new HorizontalFacingBlock(BlockBehaviour.Properties.of().strength(1.5f).sound(SoundType.WOOD))
         );
-    }
+
+        registerBlock("city_orange_tulip", () -> new FlowerBlock(MobEffects.HEAL, 5,
+                        BlockBehaviour.Properties.of()
+                                .noCollission()
+                                .instabreak()
+                                .sound(SoundType.GRASS)
+                ));
+    };
 
     private static void registerBlock(String name, Supplier<Block> blockSupplier) {
         RegistryObject<Block> block = BLOCKS.register(name, blockSupplier);

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cityblocks:block/city_orange_tulip"
+  },
+  "render_type": "cutout"
+}
