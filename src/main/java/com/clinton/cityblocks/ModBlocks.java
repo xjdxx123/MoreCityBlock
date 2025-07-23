@@ -22,6 +22,7 @@ public class ModBlocks {
     public static final Map<String, RegistryObject<Block>> BLOCK_MAP = new HashMap<>();
 
     static {
+        // 注册物品
         registerBlock("city_end_stone", () -> new Block(BlockBehaviour.Properties.of().strength(3.0f).sound(SoundType.STONE)));
         registerBlock(
                 "city_bee_nest",
