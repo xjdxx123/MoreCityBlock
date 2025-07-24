@@ -1,0 +1,7 @@
+{
+  "parent": "block/axis",
+  "textures": {
+    "side": "cityblocks:block/city_acacia_log",
+    "end": "cityblocks:block/city_acacia_log_top"
+  }
+}
