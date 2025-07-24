@@ -39,6 +39,8 @@ public class ModBlocks {
                 ));
 
         registerBlock("city_acacia_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LEAVES)));
+        registerBlock("city_acacia_log", () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)));
+        registerBlock("city_acacia_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS)));
 
     };
 

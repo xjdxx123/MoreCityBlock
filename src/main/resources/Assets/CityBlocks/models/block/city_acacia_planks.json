@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cityblocks:block/city_acacia_planks"
+  }
+}
