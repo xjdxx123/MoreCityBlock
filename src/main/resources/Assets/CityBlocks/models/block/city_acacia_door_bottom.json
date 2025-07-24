@@ -1,0 +1,6 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "bottom": "cityblocks:block/city_acacia_door_bottom"
+  }
+}

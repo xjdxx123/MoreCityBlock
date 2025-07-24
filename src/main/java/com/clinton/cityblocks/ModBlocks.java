@@ -3,9 +3,11 @@ package com.clinton.cityblocks;
 import com.clinton.cityblocks.blockLogic.HorizontalFacingBlock;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -35,6 +37,9 @@ public class ModBlocks {
                                 .instabreak()
                                 .sound(SoundType.GRASS)
                 ));
+
+        registerBlock("city_acacia_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_LEAVES)));
+
     };
 
     private static void registerBlock(String name, Supplier<Block> blockSupplier) {

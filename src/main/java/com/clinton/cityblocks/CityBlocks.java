@@ -45,6 +45,7 @@ public class CityBlocks {
         var bus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.BLOCKS.register(bus);
         ModBlocks.ITEMS.register(bus);
+        ModSpecialBlocks.registerAll();
         CREATIVE_MODE_TABS.register(bus);
     }
 }

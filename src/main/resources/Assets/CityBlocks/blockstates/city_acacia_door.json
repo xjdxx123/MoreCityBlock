@@ -1,0 +1,43 @@
+{
+  "variants": {
+    "facing=north,half=lower,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_bottom" },
+    "facing=north,half=lower,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_bottom", "y": 90, "uvlock": true },
+    "facing=north,half=lower,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_bottom", "y": 0, "uvlock": true, "x": 0, "z": 0, "mirror": "true" },
+    "facing=north,half=lower,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 270, "uvlock": true },
+
+    "facing=north,half=upper,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_top" },
+    "facing=north,half=upper,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_top", "y": 90, "uvlock": true },
+    "facing=north,half=upper,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_top", "y": 0, "uvlock": true, "mirror": "true" },
+    "facing=north,half=upper,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_top", "y": 270, "uvlock": true },
+
+    "facing=east,half=lower,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 90 },
+    "facing=east,half=lower,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_bottom", "y": 180, "uvlock": true },
+    "facing=east,half=lower,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_bottom", "y": 90, "uvlock": true, "mirror": "true" },
+    "facing=east,half=lower,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 270, "uvlock": true },
+
+    "facing=east,half=upper,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_top", "y": 90 },
+    "facing=east,half=upper,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_top", "y": 180, "uvlock": true },
+    "facing=east,half=upper,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_top", "y": 90, "uvlock": true, "mirror": "true" },
+    "facing=east,half=upper,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_top", "y": 270, "uvlock": true },
+
+    "facing=south,half=lower,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 180 },
+    "facing=south,half=lower,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_bottom", "y": 270, "uvlock": true },
+    "facing=south,half=lower,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_bottom", "y": 180, "uvlock": true, "mirror": "true" },
+    "facing=south,half=lower,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 0, "uvlock": true },
+
+    "facing=south,half=upper,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_top", "y": 180 },
+    "facing=south,half=upper,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_top", "y": 270, "uvlock": true },
+    "facing=south,half=upper,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_top", "y": 180, "uvlock": true, "mirror": "true" },
+    "facing=south,half=upper,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_top", "y": 0, "uvlock": true },
+
+    "facing=west,half=lower,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 270 },
+    "facing=west,half=lower,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_bottom", "y": 0, "uvlock": true },
+    "facing=west,half=lower,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_bottom", "y": 270, "uvlock": true, "mirror": "true" },
+    "facing=west,half=lower,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_bottom", "y": 90, "uvlock": true },
+
+    "facing=west,half=upper,open=false,hinge=left":  { "model": "cityblocks:block/city_acacia_door_top", "y": 270 },
+    "facing=west,half=upper,open=true,hinge=left":   { "model": "cityblocks:block/city_acacia_door_top", "y": 0, "uvlock": true },
+    "facing=west,half=upper,open=false,hinge=right": { "model": "cityblocks:block/city_acacia_door_top", "y": 270, "uvlock": true, "mirror": "true" },
+    "facing=west,half=upper,open=true,hinge=right":  { "model": "cityblocks:block/city_acacia_door_top", "y": 90, "uvlock": true }
+  }
+}

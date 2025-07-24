@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cityblocks:item/city_acacia_door_bottom"
+  }
+}
