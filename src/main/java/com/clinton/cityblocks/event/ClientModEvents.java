@@ -24,6 +24,8 @@ public class ClientModEvents {
             // 调整渲染层级
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_orange_tulip").get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_acacia_leaves").get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_allium").get(), RenderType.cutout());
+
 
             ItemBlockRenderTypes.setRenderLayer(ModSpecialBlocks.CITY_ACACIA_DOOR.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModSpecialBlocks.CITY_ACACIA_SAPLING.get(), RenderType.cutout());

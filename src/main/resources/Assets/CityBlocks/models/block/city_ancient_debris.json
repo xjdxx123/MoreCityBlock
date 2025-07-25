@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "cityblocks:block/city_ancient_debris_top",
+    "side": "cityblocks:block/city_ancient_debris_side"
+  }
+}
