@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "cityblocks:block/city_acacia_sapling"
+  },
+  "render_type": "cutout"
+
+}

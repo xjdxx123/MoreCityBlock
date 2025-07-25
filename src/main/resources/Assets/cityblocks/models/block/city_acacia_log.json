@@ -1,5 +1,5 @@
 {
-  "parent": "block/axis",
+  "parent": "block/cube_column",
   "textures": {
     "side": "cityblocks:block/city_acacia_log",
     "end": "cityblocks:block/city_acacia_log_top"
