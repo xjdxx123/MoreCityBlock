@@ -49,6 +49,11 @@ public class ModBlocks {
         ));
         registerBlock("city_amethyst_block", () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
         registerBlock("city_ancient_debris", () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS)));
+        registerBlock("city_andesite", () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
+        registerBlock("city_anvil", () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANVIL)));
+
+        registerBlock("city_azalea_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.AZALEA_LEAVES)));
+
 
     };
 

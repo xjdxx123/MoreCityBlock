@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cityblocks:block/city_anvil",
+    "up": "cityblocks:block/city_anvil_top",
+    "north": "cityblocks:block/city_anvil",
+    "south": "cityblocks:block/city_anvil",
+    "west": "cityblocks:block/city_anvil",
+    "east": "cityblocks:block/city_anvil"
+  }
+}

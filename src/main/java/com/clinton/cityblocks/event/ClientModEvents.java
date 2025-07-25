@@ -25,10 +25,13 @@ public class ClientModEvents {
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_orange_tulip").get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_acacia_leaves").get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_allium").get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLOCK_MAP.get("city_azalea_leaves").get(), RenderType.cutout());
+
 
 
             ItemBlockRenderTypes.setRenderLayer(ModSpecialBlocks.CITY_ACACIA_DOOR.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModSpecialBlocks.CITY_ACACIA_SAPLING.get(), RenderType.cutout());
+
 
             // 可以添加更多需要 cutout 的方块
         });
